@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let examples = [];
-const exampleCount = 2;
+const exampleCount = 3;
 
 (async ()=>{
   
