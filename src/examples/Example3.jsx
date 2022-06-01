@@ -9,11 +9,11 @@ export default function Example() {
         <Fragment>
             <span style={{fontSize:"16px"}} >Users and users lists can be render thusly :) :</span>
             <br></br><br></br>
-            <UserGrid userIds={user?._following} onUser={userId=>console.log("Select", userId)} />
+            <UserGrid userIds={user?._following} onUser={userId=>window.alert("Select " + userId)} />
             <br></br><br></br>
-            <UserList userIds={user?._following} onUser={userId=>console.log("Select", userId)} />
+            <UserList userIds={user?._following} onUser={userId=>window.alert("Select " + userId)} />
             <br></br><br></br>
-            <UserStack userIds={user?._following} onUser={userId=>console.log("Select", userId)} />
+            <UserStack userIds={user?._following} onUser={userId=>window.alert("Select " + userId)} />
         </Fragment>
     );
 }
@@ -31,11 +31,11 @@ export default function Example() {
         <Fragment>
             <span style={{fontSize:"16px"}} >Users and users lists can be render thusly :) :</span>
             <br></br><br></br>
-            <UserGrid userIds={user?._following} onUser={userId=>console.log("Select", userId)} />
+            <UserGrid userIds={user?._following} onUser={userId=>window.alert("Select " + userId)} />
             <br></br><br></br>
-            <UserList userIds={user?._following} onUser={userId=>console.log("Select", userId)} />
+            <UserList userIds={user?._following} onUser={userId=>window.alert("Select " + userId)} />
             <br></br><br></br>
-            <UserStack userIds={user?._following} onUser={userId=>console.log("Select", userId)} />
+            <UserStack userIds={user?._following} onUser={userId=>window.alert("Select " + userId)} />
         </Fragment>
     );
 }`;
